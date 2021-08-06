@@ -1,0 +1,47 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+setuptools = "*"
+Django = "==2.2.16"
+graphene = "==2.1.8"
+graphene-django = "==2.13.0"
+graphene-file-upload = "==1.2.2"
+django-graphql-jwt = "==0.1.14"
+django-cors-headers = "==2.2.0"
+django-graphql-social-auth = "==0.1.1"
+django-richenum = "==3.7.0"
+sendgrid = "==6.0.5"
+eventlet = "==0.23.0"
+google-api-python-client = "==1.7.4"
+oauth2client = "==4.1.3"
+openpyxl = "==3.0.3"
+paho-mqtt = "==1.4.0"
+elasticsearch = "==6.3.1"
+PyYAML = "==5.1.1"
+django-currentuser = "===0.4.2"
+django-countries = "===5.5"
+py-moneyed = "==0.8.0"
+pytest-cov = "==2.12.0"
+pytest-django = "==4.4.0"
+python-dateutil = "==2.8.1"
+python-freshdesk = "==1.3.7"
+pandas = "==1.1.5"
+jsonfield = "==2.1.0"
+XlsxWriter = "==1.2.8"
+reportlab = "==3.5.67"
+twilio = "==6.49.0"
+celery = "==5.0.2"
+django-celery-beat = "==2.1.0"
+cloudinary = "==1.23.0"
+boto3 = "==1.17.10"
+django-storages = "==1.11.1"
+Shapely = "==1.7.1"
+xlrd = "==2.0.1"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
